@@ -1,10 +1,9 @@
 import React from 'react'
 //
-import logoImg from '../logo.png'
+import logoImg from '../hesi_jimbo_logo-OUTLINE_THICK.png'
 
 export default () => (
   <div>
-    <h1 style={{ textAlign: 'center' }}>Welcome to</h1>
     <img src={logoImg} alt="" />
   </div>
 )
