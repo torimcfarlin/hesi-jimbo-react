@@ -19,7 +19,6 @@ export default () => (
   <div>
     <img src={logoImg} alt="" />
   </div>
-  <div style={{...divStyle, flexDirection: 'column'}}>
   <Link
     to="https://instagram.com/hesijimbofoodtruck?igshid=YmMyMTA2M2Y="
     target="_blank"
@@ -28,9 +27,10 @@ export default () => (
     <img src={instaImg} alt="" style={{ height: 50 }}/>
     <a style={{ margin: 5, color: pink }}>@hesijimbofoodtruck</a>
   </Link>
-  <div style={{...divStyle, padding: 10}}>
-    <a style={{color: orange}}>jimmie@hesijimbo.com.au</a>
-  </div>
-  </div>
 </div>
 )
+
+
+// <div style={{...divStyle, padding: 10}}>
+//   <a style={{color: orange}}>jimmie@hesijimbo.com.au</a>
+// </div>
