@@ -11,7 +11,6 @@ const orange = '#e65037'
 const divStyle = {
   display: 'flex',
   alignItems: 'center',
-  justifyContent: 'center',
 }
 
 export default () => (
@@ -22,10 +21,10 @@ export default () => (
   <Link
     to="https://instagram.com/hesijimbofoodtruck?igshid=YmMyMTA2M2Y="
     target="_blank"
-    style={{...divStyle, height: 10, margin: 5, padding: 10}}
+    style={{...divStyle, height: 10, margin: 5, position: 'absolute', bottom: 100}}
   >
-    <img src={instaImg} alt="" style={{ height: 50 }}/>
-    <a style={{ margin: 5, color: pink }}>@hesijimbofoodtruck</a>
+    <img src={instaImg} alt="" style={{ height: 40 }}/>
+    <a style={{ margin: 5, color: pink, fontSize: 20 }}>@hesijimbofoodtruck</a>
   </Link>
 </div>
 )
