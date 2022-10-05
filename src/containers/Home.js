@@ -16,20 +16,20 @@ const divStyle = {
 }
 
 export default () => (
-<div>
+<div style={{...divStyle, flexDirection: 'column'}}>
   <div>
     <img src={logoImg} alt="" />
   </div>
   <Link
     to="https://instagram.com/hesijimbofoodtruck?igshid=YmMyMTA2M2Y="
     target="_blank"
-    style={divStyle}
+    style={{...divStyle, maxWidth: '15%'}}
   >
-    <img src={instaImg} alt="" style={{width: 50}}/>
-    <body style={{padding: 5, color: pink}}>@hesijimbofoodtruck</body>
+    <img src={instaImg} alt="" style={{maxWidth: '15%'}}/>
+    <a style={{padding: 5, color: pink}}>@hesijimbofoodtruck</a>
   </Link>
-  <div style={divStyle}>
-    <body style={{color: orange}}>jimmie@hesijimbo.com.au</body>
+  <div style={{...divStyle, maxWidth: '15%'}}>
+    <a style={{color: orange}}>jimmie@hesijimbo.com.au</a>
   </div>
 </div>
 )
