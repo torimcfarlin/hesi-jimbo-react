@@ -23,12 +23,12 @@ export default () => (
   <Link
     to="https://instagram.com/hesijimbofoodtruck?igshid=YmMyMTA2M2Y="
     target="_blank"
-    style={{...divStyle, maxWidth: '15%'}}
+    style={{...divStyle, maxWidth: '20%', height: 10, margin: 5}}
   >
-    <img src={instaImg} alt="" style={{maxWidth: '15%'}}/>
-    <a style={{padding: 5, color: pink}}>@hesijimbofoodtruck</a>
+    <img src={instaImg} alt="" style={{ height: 50 }}/>
+    <a style={{ margin: 5, color: pink }}>@hesijimbofoodtruck</a>
   </Link>
-  <div style={{...divStyle, maxWidth: '15%'}}>
+  <div style={{...divStyle, maxWidth: '20%'}}>
     <a style={{color: orange}}>jimmie@hesijimbo.com.au</a>
   </div>
 </div>
