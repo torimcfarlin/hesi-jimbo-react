@@ -1,17 +1,25 @@
+@font-face {
+  font-family: bodyfont;
+  src: url("fonts/Futura Std Medium.otf") format("opentype")
+}
+
+@font-face {
+  font-family: logofont;
+  src: url("fonts/Futura Std Extra Bold.otf") format("opentype")
+}
+
 body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
-    'Lucida Grande', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
+  font-family: bodyfont;
+  font-size: 25px;
   margin: 0;
   padding: 0;
   background: black;
 }
 
 a {
+  font-family: logofont;
   text-decoration: none;
   color: #108db8;
-  font-weight: bold;
 }
 
 img {
