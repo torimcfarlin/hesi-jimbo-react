@@ -19,12 +19,12 @@ export default () => (
     <img src={logoImg} alt="" />
   </div>
   <Link
-    to="https://instagram.com/hesijimbofoodtruck?igshid=YmMyMTA2M2Y="
+    to="https://instagram.com/hesijimbohotchicken/?igshid=YmMyMTA2M2Y%3"
     target="_blank"
     style={{...divStyle, height: 10, margin: 5, position: 'absolute', bottom: 100}}
   >
     <img src={instaImg} alt="" style={{ height: 40 }}/>
-    <a style={{ margin: 5, color: pink, fontSize: 20 }}>@hesijimbofoodtruck</a>
+    <a style={{ margin: 5, color: pink, fontSize: 20 }}>@hesijimbohotchicken</a>
   </Link>
 </div>
 )
